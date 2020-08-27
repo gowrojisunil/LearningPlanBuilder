@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Learning Plan</string>
+    <string name="order_id_mock" translatable="false">Advance English Training</string>
+    <string name="price_mock" translatable="false">$25</string>
+    <string name="requests_count_mock" translatable="false">56</string>
+    <string name="requests_count_badge" translatable="false">LECTURES</string>
+    <string name="weight_mock" translatable="false">4.4</string>
+    <string name="weight_badge" translatable="false">RATING</string>
+    <string name="pledge_mock" translatable="false">33 Hours</string>
+    <string name="pledge_badge" translatable="false">HOURS</string>
+    <string name="sender_badge" translatable="false">TRAINER</string>
+    <string name="client_name_mock" translatable="false">Edward Norton</string>
+    <string name="rating_mock" translatable="false">(26)</string>
+    <string name="from_badge" translatable="false">DETAILS</string>
+    <string name="to_badge" translatable="false">TO</string>
+    <string name="delivery_date_badge" translatable="false">DELIVERY DATE</string>
+    <string name="delivery_time_mock" translatable="false">6:30 pm</string>
+    <string name="delivery_date_mock" translatable="false">May 16, 2016</string>
+    <string name="deadline_badge" translatable="false">REQUEST DEADLINE</string>
+    <string name="deadline_time_mock" translatable="false">24 minutes</string>
+    <string name="request_btn_text" translatable="false">PURCHASE</string>
+    <string name="btn_annotation_mock" translatable="false">5 people have sent a request</string>
+    <string name="content_from1_mock">Advance English Learning</string>
+    <string name="content_from2_mock">Do check out our virtual learning course here. World-class English courses and classes. Whether you want to accelerate your career, prepare for study or improve ...</string>
+    <string name="content_to1_mock">46th Ave</string>
+    <string name="content_to2_mock">Woodside, NY 11101</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="add">ADD FAMILY</string>
+    <string name="about">Version 1.0</string>
+    <string name="exit">logout</string>
+    <string name="reset">reset</string>
+    <string name="mode">Dark mode</string>
+    <string name="faq">FAQ\'s and Feedback</string>
+</resources>
