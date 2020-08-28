@@ -6,7 +6,6 @@ package com.learnplanbuilder.app.viewmodel;
 import androidx.lifecycle.MutableLiveData ;
 import androidx.lifecycle.ViewModel;
 
-import android.content.Intent;
 import android.view.View;
 
 import com.learnplanbuilder.app.model.LoginUser;

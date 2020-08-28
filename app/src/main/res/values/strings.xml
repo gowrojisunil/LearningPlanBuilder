@@ -25,7 +25,7 @@
     <string name="content_to1_mock">46th Ave</string>
     <string name="content_to2_mock">Woodside, NY 11101</string>
     <string name="title_activity_main2">Main2Activity</string>
-    <string name="add">ADD FAMILY</string>
+    <string name="add">"Add Family Members</string>
     <string name="about">Version 1.0</string>
     <string name="exit">logout</string>
     <string name="reset">reset</string>
