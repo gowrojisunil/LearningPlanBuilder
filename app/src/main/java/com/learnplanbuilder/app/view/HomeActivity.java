@@ -3,6 +3,7 @@ package com.learnplanbuilder.app.view;
  * Created by Sunil gowroji
  */
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Gravity;
@@ -17,14 +18,13 @@ import android.widget.Toast;
 import com.learnplanbuilder.app.model.Item;
 import com.learnplanbuilder.app.R;
 import com.ramotion.foldingcell.FoldingCell;
+
 import androidx.appcompat.app.AppCompatActivity;
-import me.toptas.fancyshowcase.FancyShowCaseView;
 
 import java.util.ArrayList;
 
 public class HomeActivity extends AppCompatActivity {
     ListView theListView;
-    private static boolean flag = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -87,21 +87,12 @@ public class HomeActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
 
-        if (item.getItemId() == R.id.add && flag == false) {
-            flag = true;
-            new FancyShowCaseView.Builder(this)
-                    .focusOn(findViewById(R.id.add))
-                    .title(getResources().getString(R.string.add))
-                    .titleStyle(R.style.MyTitleStyle, Gravity.BOTTOM)
-                    .focusBorderColor(Color.GREEN)
-                    .focusBorderSize(5)
-                    .build()
-                    .show();
-        }
 
         switch (id) {
             case R.id.add:
-                showToast("Please add your family members");
+                //  showToast("Please add your family members");
+                Intent intent = new Intent(this, ViewFamilyMembersActivity.class);
+                startActivity(intent);
                 return true;
             case R.id.reset:
                 showToast("Refreshed successfully!!");

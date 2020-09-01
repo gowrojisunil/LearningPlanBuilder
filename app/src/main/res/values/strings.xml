@@ -31,4 +31,26 @@
     <string name="reset">reset</string>
     <string name="mode">Dark mode</string>
     <string name="faq">FAQ\'s and Feedback</string>
+
+
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="email">Email ID</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="add_member">Add Member</string>
+    <string name="user_photo">User Photo</string>
+
+
+    <array name="Relation">
+        <item name="Mon">Father</item>
+        <item name="Tue">Mother</item>
+        <item name="YoungerSister">Younger Sister</item>
+        <item name="ElderSister">Elder Sister</item>
+        <item name="YoungerBrother">Younger Brother</item>
+        <item name="ElderBrother">Elder Brother</item>
+        <item name="GrandFather">Grand Father</item>
+        <item name="GrandMother">Grand Mother</item>
+    </array>
 </resources>

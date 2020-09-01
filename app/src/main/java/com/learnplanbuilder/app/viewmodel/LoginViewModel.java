@@ -3,7 +3,7 @@ package com.learnplanbuilder.app.viewmodel;
  * Created by Sunil gowroji
  */
 
-import androidx.lifecycle.MutableLiveData ;
+import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
 import android.view.View;
@@ -31,7 +31,6 @@ public class LoginViewModel extends ViewModel {
         LoginUser loginUser = new LoginUser(EmailAddress.getValue(), Password.getValue());
 
         userMutableLiveData.setValue(loginUser);
-
 
 
     }
